@@ -20,7 +20,8 @@
 - RESTful APIs
 
 ### 💾 Database
-- MongoDB (CRUD, design, queries)
+-SQL
+- MongoDB 
 
 ### 🛠 Tools & Platforms
 - Git & GitHub
