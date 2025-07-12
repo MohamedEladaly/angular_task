@@ -4,7 +4,7 @@
 body {
     margin: 0;
     font-family: "Segoe UI", Arial, sans-serif;
-    background: #f5f0e1; /* light wood background */
+    background: #f5f0e1; 
     color: #222;
     display: flex;
     flex-direction: column;
@@ -31,7 +31,7 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-    color: #8b5e3c; /* warm brown */
+    color: #8b5e3c; 
     margin: 10px;
     padding: 0;
     position: relative;
@@ -40,7 +40,7 @@ nav ul li {
     cursor: pointer;
 }
 nav ul li button {
-    background-color: #8b5e3c; /* warm brown */
+    background-color: #8b5e3c;
     color: white;
     border: none;
     padding: 10px 15px;
@@ -51,7 +51,7 @@ nav ul li button {
 
 }
 nav ul li button:hover {
-    background-color: #5c3a21; /* dark wood */
+    background-color: #5c3a21; 
     transform: scale(1.2);
 }
 .title {
@@ -61,12 +61,12 @@ nav ul li button:hover {
 
 .title span {
     font-size: 30px;
-    color: #8b5e3c; /* warm brown */
+    color: #8b5e3c;
 }
 .title .sp {
     display: block;
     height: 2px;
-    background-color: #8b5e3c; /* warm brown */
+    background-color: #8b5e3c; 
     margin: 4px auto 0 auto;
     width: 60%;
 }
@@ -81,7 +81,7 @@ nav ul li button:hover {
 }
 
 .food-card {
-    background-color: #f0e6d2; /* muted tan */
+    background-color: #f0e6d2; 
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -94,7 +94,7 @@ nav ul li button:hover {
     transition: background-color 0.3s ease, transform 0.4s ease;
 }
 .food-card:hover {
-    background-color: #8c4e22; /* dark wood */
+    background-color: #8c4e22; 
     transform: scale(1.2);
 }
 
@@ -112,24 +112,24 @@ nav ul li button:hover {
 
 .food-card h3 {
     font-size: 20px;
-    color: #5c3a21; /* dark wood */
+    color: #5c3a21; 
     text-transform: uppercase;
     margin: 10px 0 5px;
     transition: color 0.3s ease;
 }
 .food-card h3:hover {
-    color: #f5f0e1; /* soft beige */
+    color: #f5f0e1; 
 }
 
 .food-card p {
     font-size: 15px;
-    color: #5c3a21; /* dark wood */
+    color: #5c3a21; 
     margin-bottom: 15px;
     flex-grow: 1;
     transition: color 0.3s ease;
 }
 .food-card p:hover {
-    color: #c49b6c; /* accent caramel */
+    color: #c49b6c;
 }
 .the-info {
     display: flex;
@@ -140,7 +140,7 @@ nav ul li button:hover {
 
 .the-info a,
 .the-info button {
-    background-color: #8b5e3c; /* warm brown */
+    background-color: #8b5e3c;
     color: white;
     padding: 10px 15px;
     border-radius: 5px;
@@ -152,7 +152,7 @@ nav ul li button:hover {
 
 .the-info a:hover,
 .the-info button:hover {
-    background-color: #5c3a21; /* dark wood */
+    background-color: #5c3a21; 
     transform: scale(1.05);
 }
 .food_model{
@@ -164,14 +164,14 @@ nav ul li button:hover {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: rgba(92, 58, 33, 0.2); /* wood-tone transparent overlay */
+    background-color: rgba(92, 58, 33, 0.2); 
     z-index: 1250;
     transform: scale(0);
     overflow: auto;
 }
 
 .r_detales{
-    background: #d2b48c; /* muted tan */
+    background: #d2b48c; 
     margin: auto;
     text-align: center;
     display: flex;
@@ -189,13 +189,13 @@ nav ul li button:hover {
 }
 .r_detales h3 {
     font-size: 20px;
-    color: #5c3a21; /* dark wood */
+    color: #5c3a21; 
     text-transform: uppercase;
     margin: 10px 0 5px;
     transition: color 0.3s ease;
 }
 .r_detales h3:hover {
-    color: #f5f0e1; /* soft beige */
+    color: #f5f0e1;
 }
 
 .r_detales ul{
@@ -204,7 +204,7 @@ nav ul li button:hover {
 }
 .r_detales button {
     width: 80px;
-    background-color: #8b5e3c; /* warm brown */
+    background-color: #8b5e3c; 
     color: white;
     border-radius: 50px;
     padding:  15px;
@@ -217,7 +217,7 @@ nav ul li button:hover {
     cursor: pointer;
 }
 .r_detales button:hover {
-    background-color: #5c3a21; /* dark wood */
+    background-color: #5c3a21; 
     transform: scale(1.1);
 }
 
@@ -228,7 +228,7 @@ nav ul li button:hover {
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
-    background-color: rgba(245, 240, 225, 0.87); /* soft beige transparent */
+    background-color: rgba(245, 240, 225, 0.87); 
 }
 .home_container section {
     width: 100%;
@@ -238,7 +238,7 @@ nav ul li button:hover {
     justify-content: space-evenly;
     align-items: flex-start;
     padding: 20px;
-    background-color: #e6d5b8; /* light muted tan */
+    background-color: #e6d5b8; 
 }
 .home_container section img {
     width: 45%;
@@ -257,19 +257,19 @@ nav ul li button:hover {
     width: 45%;
     font-family: 'Playfair Display', serif;
     font-size: 24px;
-    color: #5c3a21; /* dark wood */
+    color: #5c3a21; 
     text-align: center;
     line-height: 1.8;
     letter-spacing: 0.8px;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
     margin: auto;
     padding: 15px 25px;
-    background: linear-gradient(to right, #f5f0e1, #e4c7a1); /* beige to caramel gradient */
+    background: linear-gradient(to right, #f5f0e1, #e4c7a1);
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 .container-contact-info{
-    background-color: #e6d5b8; /* light muted tan */
+    background-color: #e6d5b8; 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -285,7 +285,7 @@ nav ul li button:hover {
 
 .contact-info h3 {
     font-size: 20px;
-    color: #5c3a21; /* dark wood */
+    color: #5c3a21; 
     margin-bottom: 10px;
 }
 .contact-info p {
