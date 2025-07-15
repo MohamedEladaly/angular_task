@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<div id="mydiv" style="width:100px;height:100px;background-color:lightblue;">click me</div>
+<input type="text" id="myinput" placeholder="enter only numbers">
+<input type="password" id="mypassword" placeholder="enter the password">
+<span id="icon">👁️</span>
+<script>
+    //q1
+    var mydiv = document.getElementById("mydiv");
+    mydiv.addEventListener("click",  () => {
+        my_clone=mydiv.cloneNode(true);
+        my_clone.style.backgroundColor = getRandomColor();
+        document.body.appendChild(my_clone);
+    });
+    function getRandomColor() {
+        return '#'+Math.floor(Math.random() * 16777215).toString(16);
+    };
+    ///////////////////////////////////////q3-1
+    document.addEventListener("keypress", (even) => {
+        console.log( `Key: ${event.key}\nASCII Code: ${event.keyCode}\nAlt: ${event.altKey}\nCtrl: ${event.ctrlKey}\nShift: ${event.shiftKey}`)
+    });
+    ///////////////////////////////q3-1
+    document.getElementById("myinput").addEventListener("keypress", (event ) => {
+        let input = document.getElementById("myinput").value;
+        if(isNaN(input)) alert("Input is not a number");
+////////////////////////////////////////q3-3
+    });
+    let icon = document.getElementById("icon");
+    let password = document.getElementById("mypassword");
+    document.getElementById("icon").addEventListener("click", () => {
+        if(password.type === "password"){
+            password.type = "text";
+            icon.textContent = "🙈";
+        }
+        else{
+            password.type = "password";
+            icon.textContent = "👁️";
+        }
+    });
+</script>
+
+</body>
+</html>

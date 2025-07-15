@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # AngApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.20.
@@ -25,3 +26,58 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+=======
+# 👋 Hi, I'm Mohamed Eladaly
+
+🎓 I'm a third-year IT student at the Faculty of Computers and Information.  
+💻 Passionate about Web Development, especially Front-End, and expanding into Full-Stack using the **MEAN Stack**.
+
+---
+
+## 🚀 Skills & Technologies
+
+### 🌐 Front-End
+- HTML5, CSS3, Bootstrap
+- JavaScript (ES6+)
+- DOM Manipulation
+- Responsive Design
+- React.js (starting soon)
+
+### ⚙️ Back-End
+- Node.js (in progress)
+- Express.js (soon)
+- RESTful APIs
+
+### 💾 Database
+-SQL
+- MongoDB 
+
+### 🛠 Tools & Platforms
+- Git & GitHub
+- VS Code
+- Postman
+- Chrome DevTools
+
+---
+
+## 📅 My Roadmap
+
+- ✅ HTML, CSS, JavaScript Basics
+- ✅ JavaScript DOM Projects
+- 🔄 Node.js (in progress)
+- 🔜 Angular (MEAN training)
+- 🔜 React.js (starting in August)
+- 🎯 Freelancing (starting October)
+
+---
+
+## 📫 Let's Connect
+
+- Email: mohamed.eladaly@example.com  
+- LinkedIn: [Your LinkedIn URL]  
+- GitHub: [github.com/yourusername](https://github.com/yourusername)
+
+---
+
+⭐ Always learning, always building. Open to collaboration and freelance opportunities!
+>>>>>>> 7fe6971024631b93784f16f984c2cb88b282c987
