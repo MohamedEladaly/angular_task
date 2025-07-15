@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # AngApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.20.
@@ -81,3 +82,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ⭐ Always learning, always building. Open to collaboration and freelance opportunities!
 >>>>>>> 7fe6971024631b93784f16f984c2cb88b282c987
+=======
+# angular_task
+>>>>>>> 3cd8d2f7189029fb64993a6f5ea5c167c6a769c6
